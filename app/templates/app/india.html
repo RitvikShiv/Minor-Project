@@ -1,0 +1,112 @@
+{% extends 'app/base.html' %} {% load static %} {% block title %}Home{% endblock title %} {% block main-content %}
+<div style="background-color:rgb(51, 70, 95)">
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div style="text-align: center;">
+        <a href="{%url 'state'%}" class="btn btn-outline-primary btn-lg" style="padding: 15px; width: 150px;">State</a>
+        <a href="{%url 'vaccine'%}" class="btn btn-outline-primary btn-lg" style="padding: 15px; width: 150px;">Vaccine</a>
+    </div>
+    <br>
+    <br>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-sm-8 col-sm-12 col-md-10 col-md-6 col-lg-4">
+
+                <div id="india1">
+
+                    <div class="card" style="width: 100rem;">
+                        <br>
+                        <h1 class="card-title" style="text-align: center; color: crimson;">Introduction</h1><br><br>
+
+                        <iframe width="1000" height="800" frameborder="0" scrolling="no" src="//plotly.com/~rishabh4185/27.embed"></iframe>
+                        <div class="card-body">
+
+                            <p class="card-text">Coronaviruses are a large family of viruses that are known to cause illness ranging from the common cold to more severe diseases such as Middle East Respiratory Syndrome (MERS) and Severe Acute Respiratory Syndrome (SARS).
+                                A novel coronavirus (COVID-19) was identified in 2019 in Wuhan, China.</p>
+                            <!-- <a href="{%url 'state'%}" class="btn btn-outline-primary btn-lg">State</a>
+                    <a href="{%url 'vaccine'%}" class="btn btn-outline-primary btn-lg">Vaccine</a> -->
+                        </div>
+                    </div>
+                </div>
+
+                <br>
+                <br>
+
+
+                <div id="india2">
+                    <div class="card" style="width: 100rem;">
+                        <br>
+                        <h1 class="card-title" style="text-align: center; color: crimson;">Overall India Performance</h1><br><br>
+                        <iframe width="1000" height="800" frameborder="0" scrolling="no" src="//plotly.com/~rishabh4185/25.embed"></iframe>
+
+                        <div class="card-body">
+                            <!-- <h2 class="card-title">Overall India Performance</h2> -->
+                            <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+                            <p class="card-text">Coronaviruses are a large family of viruses that are known to cause illness ranging from the common cold to more severe diseases such as Middle East Respiratory Syndrome (MERS) and Severe Acute Respiratory Syndrome (SARS).
+                                A novel coronavirus (COVID-19) was identified in 2019 in Wuhan, China.</p>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <br>
+
+                <div id="india3">
+                    <div class="card" style="width: 100rem;">
+                        <br>
+                        <h1 class="card-title" style="text-align: center; color: crimson;">Daily Confirmed Cases</h1><br><br>
+                        <iframe width="1000" height="800" frameborder="0" scrolling="no" src="//plotly.com/~rishabh4185/38.embed"></iframe>
+
+
+                        <div class="card-body">
+                            <!-- <h2 class="card-title">Daily Confirmed Cases</h2> -->
+                            <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+                            <p class="card-text">Coronaviruses are a large family of viruses that are known to cause illness ranging from the common cold to more severe diseases such as Middle East Respiratory Syndrome (MERS) and Severe Acute Respiratory Syndrome (SARS).
+                                A novel coronavirus (COVID-19) was identified in 2019 in Wuhan, China.</p>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <br>
+
+                <div id="india4">
+                    <div class="card" style="width: 100rem;">
+                        <br>
+                        <h1 class="card-title" style="text-align: center; color: crimson;">Daily Recovered Cases</h1><br><br>
+                        <iframe width="1000" height="800" frameborder="0" scrolling="no" src="//plotly.com/~rishabh4185/40.embed"></iframe>
+
+                        <div class="card-body">
+                            <!-- <h2 class="card-title">Daily Recovered Cases</h2> -->
+                            <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+                            <p class="card-text">Coronaviruses are a large family of viruses that are known to cause illness ranging from the common cold to more severe diseases such as Middle East Respiratory Syndrome (MERS) and Severe Acute Respiratory Syndrome (SARS).
+                                A novel coronavirus (COVID-19) was identified in 2019 in Wuhan, China.</p>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <div id="india5">
+                    <div class="card" style="width: 100rem;">
+                        <br>
+                        <h1 class="card-title" style="text-align: center; color: crimson;">Daily Death</h1><br><br>
+                        <iframe width="1000" height="800" frameborder="0" scrolling="no" src="//plotly.com/~rishabh4185/42.embed"></iframe>
+
+                        <div class="card-body">
+                            <!-- <h2 class="card-title">Daily Death</h2> -->
+                            <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+                            <p class="card-text">Coronaviruses are a large family of viruses that are known to cause illness ranging from the common cold to more severe diseases such as Middle East Respiratory Syndrome (MERS) and Severe Acute Respiratory Syndrome (SARS).
+                                A novel coronavirus (COVID-19) was identified in 2019 in Wuhan, China.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br> {% endblock main-content %}
